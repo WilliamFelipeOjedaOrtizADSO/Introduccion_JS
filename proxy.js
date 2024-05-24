@@ -1,4 +1,5 @@
 const usuario = {
+<<<<<<< HEAD
   nombre: '',
   apellido: '',
   edad: 0
@@ -16,4 +17,11 @@ const proxy = new Proxy(usuario, {
   set: function (usuario, handler)
 })
 
+=======
+  nombre: 'William',
+  apellido: 'Ojeda',
+  edad: 20
+}
+
+>>>>>>> desarrollo
 console.log(usuario)
