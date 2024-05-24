@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation-link:hover {
+  background-color: #333;
+  color: #fff;
+}
